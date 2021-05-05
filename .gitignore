@@ -10,6 +10,7 @@ setup.sh
 .project
 .env
 
+
 # Vim temp files
 *.swp
 *.swo
@@ -22,3 +23,4 @@ npm-debug.log
 .vscode
 .jekyll-cache
 bin
+vendor

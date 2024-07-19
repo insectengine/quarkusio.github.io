@@ -26,7 +26,7 @@ if(tables){
                 const collapsibleSpan = decoration.children.item(1);
                 const descDiv = td.firstElementChild.children.item(1);
                 const collapsibleHandler = makeCollapsibleHandler(descDiv, td, row, collapsibleSpan, iconDecoration);
-                row.addEventListener('click', collapsibleHandler);
+                decoration.addEventListener('click', collapsibleHandler);
             }
         }
 
